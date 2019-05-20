@@ -1,7 +1,12 @@
+// First statement in Go source file must be package name
+// Executables must always use package main
 package main
 
-import "fmt"
+import (
+    "fmt"
+    "github.com/rajnish-aggarwal/stringutil"
+)
 
 func main() {
-    fmt.Println("Hello, world.")
+    fmt.Println(stringutil.Reverse("!oG, olleH"))
 }
